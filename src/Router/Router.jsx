@@ -34,7 +34,7 @@ function AppRouter() {
 
 export default function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Games">
       <AppRouter />
     </BrowserRouter>
   );
