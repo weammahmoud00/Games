@@ -1,0 +1,36 @@
+.custom-modal {
+    background-color: #272b30 !important;
+    color: white;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 1055;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.showG {
+    background-color: transparent;
+    border: 2px solid #e2fb00;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+    padding: 5px 20px;
+    &:hover {
+        background-color: #e2fb00;
+    }
+}
+.des{
+    font-size: 13px !important;
+    font-weight: 200 !important;
+}
+.info{
+    background-color: #0dcaf0;
+    padding: 5px 7px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
